@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+    display: flex; 
+    background-image: url("assets/images/background.jpg");
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: medium;
+    color: #f9f9f9;
+    text-shadow: 0px 0px 2px black;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 90px;
+    padding: 10px 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ff99c8;
+    text-shadow: -1px -1px 0 #f9f9f9, 1px -1px 0 #f9f9f9, -1px 1px 0 #f9f9f9, 1px 1px 0 #f9f9f9;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    color: rgb(58,124,165);
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+#playbutton {
+    background: rgb(193,211,254);
+}
+
+#playbutton:hover {
+    background: rgb(237,242,251);
+}
+
+.hero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 600px;
+height: 350px;
+background-color: rgb(41,50,65,0.35);
+border-radius: 3%;
+margin: auto;
+
+
+}
